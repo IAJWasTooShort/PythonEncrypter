@@ -30,6 +30,9 @@ letters = int(configParser.get('letters', 'l'))
 word = configParser.get('letters', 'output')
 
 output = decrypt(word, letters)
+aoutput = str(output).replace(",", "")
+aaoutput = str(aoutput).replace("'", "")
+
 print("-------------------------")
-print(output)
+print(aaoutput)
 print("-------------------------")
