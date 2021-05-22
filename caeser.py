@@ -1,7 +1,7 @@
 import configparser
 
 configParser = configparser.RawConfigParser()
-configFilePath = r'C:\Users\isaac\encrypt\config.txt'
+configFilePath = r'config.txt'
 configParser.read(configFilePath)
 
 def encrypt(msg, step):
