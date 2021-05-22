@@ -1,0 +1,4 @@
+[letters]
+l = 50
+word = Word
+output = []
