@@ -1,6 +1,6 @@
 # PythonEncrypter
 
-PythonEncrypter is a Python Program that uses a CeaserCyper to encrypt words.
+PythonEncrypter is a Python Program that uses a Ceaser Cyper to encrypt and decrypt words.
 
 
 ## Usage
@@ -13,7 +13,11 @@ l = 50 (however many letters you want to shift the word by)
 word = WhatYouWantToEncrypt
 output = []
 ```
-And then run
-```python
-> main.py
+To encrypt run:
+```console
+> ceaser.py
+```
+And to decrypt run:
+```console
+> decrypt-ceaser.py
 ```
